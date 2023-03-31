@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #3f3e37;
+  color: #ffff;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  padding-top: 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container p {
+  font-size: 25px;
+}
+
+.container .btn {
+  padding: 10px 25px;
+  border: none;
+  background-color: #cce92c;
+  color: #333;
+  font-weight: bold;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  visibility: hidden;
+}
+
+.else-block {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  color: red;
+  font-weight: bold;
+}
